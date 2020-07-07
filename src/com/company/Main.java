@@ -9,11 +9,11 @@ public class Main {
         Triangle triangle = new Triangle(10, 10);
         Ellipse ellipse = new Ellipse(7, 3);
 
-        System.out.println(rectangle.getType() + " площадь " + rectangle.area() + ", периметр  " + rectangle.perimeter());
-        System.out.println(square.getType() + " площадь " + square.area() + ", периметр  " + square.perimeter());
-        System.out.println(circle.getType() + " площадь " + circle.area() + ", периметр  " + circle.perimeter());
-        System.out.println(triangle.getType() + " площадь " + triangle.area() + ", периметр  " + triangle.perimeter());
-        System.out.println(ellipse.getType() + " площадь " + ellipse.area() + ", периметр  " + ellipse.perimeter());
+        System.out.println(rectangle.NAME + " площадь " + rectangle.area() + ", периметр  " + rectangle.perimeter());
+        System.out.println(square.NAME + " площадь " + square.area() + ", периметр  " + square.perimeter());
+        System.out.println(circle.NAME + " площадь " + circle.area() + ", периметр  " + circle.perimeter());
+        System.out.println(triangle.NAME + " площадь " + triangle.area() + ", периметр  " + triangle.perimeter());
+        System.out.println(ellipse.NAME + " площадь " + ellipse.area() + ", периметр  " + ellipse.perimeter());
 
         System.out.println();
 
@@ -32,8 +32,12 @@ public class Main {
         figures[3] = new Triangle(10, 10);
         figures[4] = new Ellipse(7, 3);
 
-        for (int i=0; i<figures.length; i++){
-            System.out.println(figures[i].getType() + " " + figures[i].area() + " " + figures[i].perimeter());
+        for (int i=0; i<1; i++){
+            System.out.println(rectangle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
+            System.out.println(square.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
+            System.out.println(circle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
+            System.out.println(triangle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
+            System.out.println(ellipse.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
 
         }
 

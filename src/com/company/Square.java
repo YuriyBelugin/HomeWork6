@@ -19,10 +19,8 @@ public class Square extends Figure {
         return a1 * 4;
     }
 
-    @Override
-    public String getType() {
-        return "Квадрат ";
-    }
+
+    public final static String NAME = "Квадрат";
 
     @Override
     public boolean equals(Object o) {

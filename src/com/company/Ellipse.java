@@ -21,10 +21,7 @@ public class Ellipse extends Figure {
         return (Math.PI * smallSemiaxis * bigSemiaxis + (smallSemiaxis - bigSemiaxis)) / (smallSemiaxis + bigSemiaxis) * 4;
     }
 
-    @Override
-    public String getType() {
-        return "Овал ";
-    }
+    public final static String NAME = "Овал";
 
     @Override
     public boolean equals(Object o) {

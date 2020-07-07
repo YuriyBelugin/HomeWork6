@@ -19,10 +19,7 @@ public class Circle extends Figure {
         return 2 * Math.PI * radius;
     }
 
-    @Override
-    public String getType() {
-        return "Круг ";
-    }
+    public final static String NAME = "Круг";
 
     @Override
     public boolean equals(Object o) {

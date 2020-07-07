@@ -21,10 +21,9 @@ public class Rectangle extends Figure {
         return (a1 + a2) * 2;
     }
 
-    @Override
-    public String getType() {
-        return "Прямоугольник ";
-    }
+
+    public final static String NAME = "Прямоугольник";
+
 
     @Override
     public boolean equals(Object o) {
