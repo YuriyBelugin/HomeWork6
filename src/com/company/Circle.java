@@ -21,7 +21,7 @@ public class Circle extends Figure {
 
     @Override
     public String getType() {
-        return "Круг";
+        return NAME;
     }
 
     public final static String NAME = "Круг";

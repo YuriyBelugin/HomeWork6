@@ -23,7 +23,7 @@ public class Ellipse extends Figure {
 
     @Override
     public String getType() {
-        return "Овал";
+        return NAME;
     }
 
     public final static String NAME = "Овал";

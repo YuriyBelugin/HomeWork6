@@ -21,7 +21,7 @@ public class Square extends Figure {
 
     @Override
     public String getType() {
-        return "Квадрат";
+        return NAME;
     }
 
     public final static String NAME = "Квадрат";
