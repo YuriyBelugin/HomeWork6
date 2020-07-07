@@ -32,12 +32,8 @@ public class Main {
         figures[3] = new Triangle(10, 10);
         figures[4] = new Ellipse(7, 3);
 
-        for (int i=0; i<1; i++){
-            System.out.println(rectangle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
-            System.out.println(square.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
-            System.out.println(circle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
-            System.out.println(triangle.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
-            System.out.println(ellipse.NAME + " " + figures[i].area() + " " + figures[i].perimeter());
+        for (int i=0; i<figures.length; i++){
+            System.out.println(figures[i].toString() + " " + figures[i].area() + " " + figures[i].perimeter());
 
         }
 
