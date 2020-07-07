@@ -21,7 +21,7 @@ public class Circle extends Figure {
 
     @Override
     public String getType() {
-        return "Круг = ";
+        return "Круг ";
     }
 
     @Override

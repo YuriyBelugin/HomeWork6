@@ -25,7 +25,7 @@ public class Triangle extends Figure {
 
     @Override
     public String getType() {
-        return "Треугольник = ";
+        return "Треугольник ";
     }
 
     @Override

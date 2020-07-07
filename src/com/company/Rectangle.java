@@ -23,7 +23,7 @@ public class Rectangle extends Figure {
 
     @Override
     public String getType() {
-        return "Прямоугольник = ";
+        return "Прямоугольник ";
     }
 
     @Override
