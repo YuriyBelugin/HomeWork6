@@ -33,8 +33,7 @@ public class Main {
         figures[4] = new Ellipse(7, 3);
 
         for (int i=0; i<figures.length; i++){
-            System.out.println(figures[i].toString() + " " + figures[i].area() + " " + figures[i].perimeter());
-
+            System.out.println(figures[i].getType()+ " " + figures[i].area() + " " + figures[i].perimeter());
         }
 
     }

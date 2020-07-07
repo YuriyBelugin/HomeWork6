@@ -23,6 +23,11 @@ public class Triangle extends Figure {
         return a + b + c;
     }
 
+    @Override
+    public String getType() {
+        return "Треугольник";
+    }
+
     public final static String NAME = "Треугольник";
 
     @Override
